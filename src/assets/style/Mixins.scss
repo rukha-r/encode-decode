@@ -1,0 +1,15 @@
+@mixin box {
+	width: 240px;
+	height: 310px;
+	border-radius: 20px;
+}
+@mixin flash {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+@keyframes blinkFlash {
+	from { background-color: #ff0909; };
+	to { background-color: #1ffd1f; };
+}
